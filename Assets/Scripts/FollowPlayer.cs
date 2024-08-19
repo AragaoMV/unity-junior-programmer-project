@@ -6,7 +6,7 @@ public class FollowPlayer : MonoBehaviour
 {
     public GameObject player;
     private Vector3 mainCamera = new Vector3(0, 5, -7);
-    private Vector3 frontCamera = new Vector3(-0.3f, 2, 1);
+    private Vector3 frontCamera = new Vector3(-03f, 2, 1);
     private Vector3 currentCameraOffset;
     private int cameraIndex = 0; //Index camera (0->Main, 1-> Front Camera)
 
@@ -21,7 +21,7 @@ public class FollowPlayer : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.F))
         {
-            cameraIndex = (cameraIndex + 1) % 2  //amount of cameras available;
+            cameraIndex = (cameraIndex + 1) % 2; //Amount of cameras available
             switch (cameraIndex)
             {
                 case 0:
