@@ -6,7 +6,7 @@ public class FollowPlayer : MonoBehaviour
 {
     public GameObject player;
     private Vector3 mainCamera = new Vector3(0, 5, -7);
-    private Vector3 frontCamera = new Vector3(-03f, 2, 1);
+    private Vector3 frontCamera = new Vector3(-0.3f, 2, 1);
     private Vector3 currentCameraOffset;
     private int cameraIndex = 0; //Index camera (0->Main, 1-> Front Camera)
 
